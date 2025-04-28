@@ -1,0 +1,40 @@
+.selected {
+  background-color: lightblue;
+  border: 2px solid blue;
+  font-weight: bold;
+  width: 80%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 1rem;
+}
+button {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, border 0.3s;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
+#submit {
+  background-color: #ff6f61;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#submit:hover {
+  background-color: #ff3b2e;
+}
